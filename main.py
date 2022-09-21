@@ -32,7 +32,8 @@ def surf(img):
     cv2.waitKey(0)
     print(surf.descriptorSize())
     return end - start
-
+# one
+# two
 
 image = cv2.imread("image/pill.jpeg")
 # print('sift_time:', sift(image))
