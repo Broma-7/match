@@ -14,7 +14,7 @@ def sift(img):
 
     return end - start
 
-#
+# it is a test
 def surf(img):
     start = time.time()
     surf = cv2.xfeatures2d.SURF_create(6500)
