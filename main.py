@@ -14,7 +14,7 @@ def sift(img):
 
     return end - start
 
-#
+# it is a test
 def surf(img):
     start = time.time()
     surf = cv2.xfeatures2d.SURF_create(6500)
@@ -32,9 +32,11 @@ def surf(img):
     cv2.waitKey(0)
     print(surf.descriptorSize())
     return end - start
-
+# one
+# two
 
 image = cv2.imread("image/pill.jpeg")
 # print('sift_time:', sift(image))
 print('surf_time:', surf(image))
 # print('OpenCv Version:',cv2.__version__)
+
