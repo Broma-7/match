@@ -12,7 +12,7 @@ def Get_npy(input_path):
 
 
 def SIFT_FLANN():
-    sift = cv2.xfeatures2d.SURF_create(5000)
+    sift = cv2.xfeatures2d.SIFT_create(5000)
     index_params = dict(algorithm=0, trees=5)
     search_params = dict(checks=50)
     flann = cv2.FlannBasedMatcher(index_params, search_params)
@@ -49,7 +49,7 @@ def Detect_Matches(sift,flann,query,descriptors):
 if __name__ == '__main__':
     start = time.time()
     query = cv2.imread('./2_180angle.png', 0)
-    input_path = 'D:\python\pythonProject2\image'
+    input_path = './image'
     descriptors = Get_npy(input_path)                # 获取特征数据文件
     sift, flann = SIFT_FLANN()                       # 使用SIFT算法检查图像的关键点和描述符，创建FLANN匹配器
     Detect_Matches(sift, flann, query, descriptors)  # 检测并匹配

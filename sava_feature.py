@@ -26,9 +26,9 @@ def save_descriptor(sift,image_path):
 
 if __name__=='__main__':
     start = time.time()
-    input_path = 'D:\python\pythonProject2\image'
+    input_path = './image'
     image_paths = get_img(input_path)
-    sift = cv2.xfeatures2d.SURF_create(5000)
+    sift = cv2.xfeatures2d.SIFT_create()
     for image_path in image_paths:
         save_descriptor(sift, image_path)
     print('done!')
