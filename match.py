@@ -12,7 +12,7 @@ def Get_npy(input_path):
 
 
 def SIFT_FLANN():
-    sift = cv2.xfeatures2d.SIFT_create(5000)
+    sift = cv2.xfeatures2d.SURF_create(2500)
     index_params = dict(algorithm=0, trees=5)
     search_params = dict(checks=50)
     flann = cv2.FlannBasedMatcher(index_params, search_params)
@@ -43,7 +43,7 @@ def Detect_Matches(sift,flann,query,descriptors):
         if max_matches == None or matches > max_matches:
             max_matches = matches
             potential_suspect = culprit
-    print("potential suspect is %s" % potential_suspect.replace("npy", "").upper())
+    print("potential suspect is %s" % potential_suspect.replace(".npy", "").upper())
 
 
 if __name__ == '__main__':
