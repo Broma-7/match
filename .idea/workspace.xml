@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00b2ceac-0b3a-4646-a2ee-1e2d5047b502" name="变更" comment="变更">
+      <change afterPath="$PROJECT_DIR$/zoom.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/image/1.npy" beforeDir="false" afterPath="$PROJECT_DIR$/image/1.npy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/image/10.npy" beforeDir="false" afterPath="$PROJECT_DIR$/image/10.npy" afterDir="false" />
@@ -57,6 +58,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\python\pythonProject2" />
+      <recent name="D:\python\pythonProject2\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\python\pythonProject2\image" />
