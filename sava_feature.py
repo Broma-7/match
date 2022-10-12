@@ -16,7 +16,7 @@ def get_img(input_path):
 def save_descriptor(sift,image_path):
     if image_path.endswith("npy"):
         return
-    img = cv2.imread(image_path, 0)
+    img = cv2.imread(image_path)
     keypoints, descriptors = sift.detectAndCompute(img, None)
 
     # 设置文件名并将特征数据保存到npy文件
@@ -26,9 +26,9 @@ def save_descriptor(sift,image_path):
 
 if __name__=='__main__':
     start = time.time()
-    input_path = './image'
+    input_path = './Medecine'
     image_paths = get_img(input_path)
-    sift = cv2.xfeatures2d.SIFT_create()
+    sift = cv2.xfeatures2d.SURF_create(1000)
     for image_path in image_paths:
         save_descriptor(sift, image_path)
     print('done!')

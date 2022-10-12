@@ -3,7 +3,7 @@
 #
 #
 # def FLANN():
-#     queryImage = cv2.imread('image/1.png')
+#     queryImage = cv2.imread('image/1_1.png')
 #     trainingImage = cv2.imread('./2_180angle.png')
 #
 #     # 使用SIFT 或 SURF 检测角点

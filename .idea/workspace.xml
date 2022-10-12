@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00b2ceac-0b3a-4646-a2ee-1e2d5047b502" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/zoom.png" afterDir="false" />
+    <list default="true" id="00b2ceac-0b3a-4646-a2ee-1e2d5047b502" name="变更" comment="新增图片">
+      <change afterPath="$PROJECT_DIR$/image/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/1.npy" beforeDir="false" afterPath="$PROJECT_DIR$/image/1.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/10.npy" beforeDir="false" afterPath="$PROJECT_DIR$/image/10.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/11.npy" beforeDir="false" afterPath="$PROJECT_DIR$/image/11.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/12.npy" beforeDir="false" afterPath="$PROJECT_DIR$/image/12.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/13.npy" beforeDir="false" afterPath="$PROJECT_DIR$/image/13.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/empty.npy" beforeDir="false" afterPath="$PROJECT_DIR$/image/empty.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/img.npy" beforeDir="false" afterPath="$PROJECT_DIR$/image/img.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/img_1.npy" beforeDir="false" afterPath="$PROJECT_DIR$/image/img_1.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/pill.npy" beforeDir="false" afterPath="$PROJECT_DIR$/image/pill.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123.py" beforeDir="false" afterPath="$PROJECT_DIR$/123.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_pictures.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_pictures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/1_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/10.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/11.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/12.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/13.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/empty.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/img.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/img_1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/img_1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/match.py" beforeDir="false" afterPath="$PROJECT_DIR$/match.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/rotation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sava_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/sava_feature.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -61,12 +74,13 @@
       <recent name="D:\python\pythonProject2\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\python\pythonProject2\image" />
+      <recent name="D:\python\pythonProject2\img" />
       <recent name="D:\python\pythonProject2" />
+      <recent name="D:\python\pythonProject2\image" />
     </key>
   </component>
   <component name="RunManager" selected="Python.match">
-    <configuration name="data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="456" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,7 +92,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/456.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,9 +210,9 @@
       <list>
         <item itemvalue="Python.match" />
         <item itemvalue="Python.sava_feature" />
-        <item itemvalue="Python.data" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.456" />
         <item itemvalue="Python.get_pictures" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -211,11 +225,55 @@
       <option name="presentableId" value="Default" />
       <updated>1653298576301</updated>
     </task>
+    <task id="LOCAL-00001" summary="新增图片">
+      <created>1664549809458</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664549809458</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="24af777d-90a6-40cd-8a4a-e74ed6cc22c9">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -223,5 +281,14 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="24af777d-90a6-40cd-8a4a-e74ed6cc22c9" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增图片" />
   </component>
 </project>

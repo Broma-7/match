@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 def FLANN_MIN_MATCH_COUNT():
     MIN_MATCH_COUNT = 10
 
-    img1 = cv2.imread('image/1.png', 0)
+    img1 = cv2.imread('image/1_1.png', 0)
     img2 = cv2.imread('./2_180angle.png',0)
 
     sift = cv2.xfeatures2d.SURF_create(2500)
